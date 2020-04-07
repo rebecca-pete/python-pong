@@ -1,22 +1,10 @@
 # Simple Pong in Python 3 for Beginners
 # By @TokyoEdTech
-# Part 1: Getting Started
 
 # modules to import:
 import turtle
 import os
 import tkinter 
-
-# from tkinter import *
-# root = Tk()
-# # Creating a Label Widget
-# myLabel = Label(root, text="Hello World!")
-#  # Shoving it onto the screen
-# myLabel.pack()
-# root.mainloop()
-# top = tkinter.Tk()
-# # Code to add widgets goes here...
-# top.mainloop()
 
 wn = turtle.Screen()
 wn.title("Pong by @TokyoEdTech")
@@ -95,7 +83,6 @@ wn.onkeypress(paddle_b_up, "Up")
 wn.onkeypress(paddle_b_down, "Down")
 
 # Main game loop
-
 while True:
     wn.update()
     # Move the ball
